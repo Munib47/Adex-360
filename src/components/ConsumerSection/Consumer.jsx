@@ -16,7 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-import "./COnsumer.css";
+import "./Consumer.css";
 
 const Consumer = () => {
   useEffect(() => {
