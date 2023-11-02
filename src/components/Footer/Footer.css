@@ -1,0 +1,10 @@
+.footer {
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .footerPadding {
+    width: 100%;
+    padding: 2vw 0px 0px 0px;
+  }
+}

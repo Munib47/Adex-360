@@ -1,0 +1,43 @@
+.backgroundExplore {
+  background-image: url("../../assets/img/explorebackground.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-black {
+  background-color: #000000;
+}
+hr {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  border-top: none;
+}
+.explore-section__heading {
+  padding: 9vw 2vw 9vw 7vw;
+  z-index: 1;
+  font-size: 4.688vw;
+  line-height: 5.469vw;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0px;
+}
+.orange-color {
+  color: #f68b1e;
+}
+
+@media (max-width: 767px) {
+  .explore-section__heading br {
+    display: none;
+  }
+  .explore-section__heading {
+    padding: 14vw 2vw 14vw 2vw;
+    font-size: 4vw;
+  }
+  .explore-section__heading img {
+    height: 20px;
+    width: 20px;
+  }
+  #explore-section + hr {
+    display: none;
+  }
+}

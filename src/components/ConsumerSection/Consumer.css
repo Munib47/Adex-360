@@ -1,0 +1,137 @@
+.rotateImage {
+  position: absolute;
+  margin-top: 3vw;
+  left: 30%;
+}
+.customPadding {
+  padding: 0px 0px 25.219vw 0px;
+}
+.bg-black {
+  background-color: #000000;
+}
+.consumerPadding {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+.whiteColor {
+  color: #fff;
+}
+
+.textPadding {
+  padding: 13vw 0px 0px 7.344vw;
+}
+
+.customTopPadding {
+  padding-top: 22vw;
+  padding-bottom: 22vw;
+}
+
+.fontGrand {
+  font-size: 5vw;
+}
+.spacing {
+  height: 40vw !important;
+}
+.orange-color {
+  color: #f68b1e;
+}
+.costPadding {
+  padding: 19vw 0px 0px 8vw;
+}
+.consumer-section__heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4.688vw;
+  line-height: 5.469vw;
+  text-align: center;
+  padding: 0px 0px 22.219vw 0px;
+  margin-bottom: 0px;
+}
+.steps-title {
+  font-weight: 900;
+  font-size: 1.563vw;
+  line-height: 5.469vw;
+  text-align: center;
+  color: #636265;
+  text-transform: uppercase;
+  padding-top: 2vw;
+  padding-bottom: 2.031vw;
+}
+@media (max-width: 767px) {
+  .rotateImage {
+    position: absolute;
+    margin-top: 10vw;
+    left: 33%;
+    width: 150px;
+    /* top: 2%; */
+  }
+  .consumer-section__heading {
+    padding: 14vw 0px 6vw 0px;
+  }
+  .h3-section {
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+  }
+  .textPadding {
+    padding-top: 18vw;
+  }
+  .fontGrand {
+    font-size: 6vw;
+  }
+  .costPadding {
+    font-size: 10px;
+    padding-top: 25vw;
+  }
+  .imgResize img {
+    height: 80px;
+    width: 80px;
+  }
+  .consumerPadding {
+    padding: 4vw 0px 4vw 0px;
+  }
+  .customPadding {
+    padding: 4vw 0px 4vw 0px;
+  }
+}
+@media (max-width: 425px) {
+  .rotateImage {
+    left: 30%;
+    width: 150px;
+  }
+}
+/* @media (max-width: 1920px) {
+    .rotateImage {
+      left: 35%;
+      margin-top: 7vw;
+      width: 550px;
+    }
+  } */
+@media (min-width: 768px) {
+  .rotateImage {
+    left: 30%;
+    margin-top: 7vw;
+    width: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rotateImage {
+    margin-top: 7vw;
+    left: 30%;
+    width: 350px;
+  }
+}
+@media (min-width: 1440px) {
+  .rotateImage {
+    margin-top: 7vw;
+    left: 32%;
+    width: 450px;
+  }
+}
+@media (max-width: 420px) {
+  .whiteColor {
+    color: #fff;
+    font-size: 10px;
+  }
+}

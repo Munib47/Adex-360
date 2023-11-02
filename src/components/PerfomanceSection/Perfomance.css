@@ -1,0 +1,50 @@
+.orange-color {
+  color: #f68b1e;
+}
+hr {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  border-top: none;
+}
+.performance-section__heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4.688vw;
+  line-height: 5.469vw;
+  text-align: left;
+  padding: 0px 0px 12.219vw;
+  margin-bottom: 0px;
+}
+.orange-btn {
+  background-color: #f68b1e;
+  border-color: #f68b1e;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px 50px !important;
+  text-align: center;
+  font-size: 2.688vw;
+}
+
+.spacing {
+  height: 40vw !important;
+}
+
+@media (max-width: 767px) {
+  .performance-section__heading {
+    padding: 10vw 2vw 4vw 2vw;
+  }
+  .orange-btn {
+    padding: 8px 35px !important;
+  }
+  .orange-btn {
+    padding: 8px 35px !important;
+  }
+}
+
+.consultancy {
+  background-image: url("../../assets/img/consultancy.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12vw 2vw;
+}
