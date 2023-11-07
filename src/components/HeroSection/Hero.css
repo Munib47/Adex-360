@@ -8,9 +8,11 @@
 .polygon {
   margin-top: 15vw;
   margin-left: 40vw;
+  animation: moveDownUp 6s ease-in-out infinite;
 }
 .arrowpurple {
   margin-left: 80vw;
+  animation: moveDownUp 9s ease-in-out infinite;
 }
 #hero-section {
   height: 62.5vw;
@@ -25,6 +27,11 @@
   padding: vw 0px 0px 2vw;
   margin: 0px;
 }
+
+.img-lines {
+  margin-left: 23.5vw;
+}
+
 @media (max-width: 1200px) {
   .img-lines {
     margin-left: 28vw;
@@ -102,5 +109,17 @@
   .img-lines {
     margin-left: 0vw;
     margin-top: 0vw;
+  }
+}
+
+@keyframes moveDownUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
