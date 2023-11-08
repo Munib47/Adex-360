@@ -57,6 +57,11 @@
   padding-top: 2vw;
   padding-bottom: 2.031vw;
 }
+
+.searchImg {
+  height: 35px !important;
+}
+
 @media (max-width: 767px) {
   .rotateImage {
     position: absolute;

@@ -42,7 +42,11 @@ const Consumer = () => {
               <span className="orange-color">
                 Emp
                 <span>
-                  <img src={Search} alt="search" className="img-fluid" />
+                  <img
+                    src={Search}
+                    alt="search"
+                    className="img-fluid searchImg"
+                  />
                 </span>
                 thy
               </span>{" "}
