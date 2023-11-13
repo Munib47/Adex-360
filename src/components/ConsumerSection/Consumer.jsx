@@ -25,8 +25,8 @@ const Consumer = () => {
       var top = rotateImg.offsetTop;
       let Myrotate = eval(window.pageYOffset - top);
 
-      // console.log(Myrotate);
-      rotateImg.style.transform = `rotate(${Myrotate}deg)`;
+      console.log(Myrotate / 2);
+      rotateImg.style.transform = `rotate(${Myrotate / 2}deg)`;
     });
     AOS.init({
       duration: 3000,

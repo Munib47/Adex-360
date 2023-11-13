@@ -52,7 +52,8 @@
   font-size: 1.563vw;
   line-height: 5.469vw;
   text-align: center;
-  color: #636265;
+  /* color: #636265; */
+  color: #000000;
   text-transform: uppercase;
   padding-top: 2vw;
   padding-bottom: 2.031vw;
