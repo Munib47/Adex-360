@@ -12,7 +12,7 @@ const ExploreSection = () => {
       const rotateImg = document.getElementById("searchImg");
       var top = rotateImg.offsetTop;
       let Myrotate = eval(window.pageYOffset - top);
-      rotateImg.style.transform = `rotate(${Myrotate}deg)`;
+      rotateImg.style.transform = `rotate(${Myrotate / 3}deg)`;
     });
     AOS.init({
       duration: 3000,
@@ -20,7 +20,7 @@ const ExploreSection = () => {
   }, []);
   return (
     <>
-      <hr />
+      {/* <hr /> */}
       <div data-aos="fade-left">
         <section id="explore-section" className=" bg-black">
           <Row className="backgroundExplore">
@@ -48,7 +48,7 @@ const ExploreSection = () => {
           </Row>
         </section>
       </div>
-      <hr />
+      {/* <hr /> */}
     </>
   );
 };

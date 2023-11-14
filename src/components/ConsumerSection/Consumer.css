@@ -1,17 +1,26 @@
 .rotateImage {
   position: absolute;
   margin-top: 3vw;
-  left: 30%;
+  /* left: 30%; */
+  margin-left: -90px;
 }
 .customPadding {
-  padding: 0px 0px 25.219vw 0px;
+  padding: 0px 0px 15.219vw 0px;
 }
+
+.lastRowCustomPadding {
+  padding: 0px 0px 10vw 0px;
+}
+
+.consumerSpacing {
+  height: 30vw;
+}
+
 .bg-black {
   background-color: #000000;
 }
 .consumerPadding {
   padding-top: 10vw;
-  padding-bottom: 10vw;
 }
 .whiteColor {
   color: #fff;
@@ -29,14 +38,12 @@
 .fontGrand {
   font-size: 5vw;
 }
-.spacing {
-  height: 40vw !important;
-}
 .orange-color {
   color: #f68b1e;
 }
 .costPadding {
-  padding: 19vw 0px 0px 8vw;
+  padding: 19vw 0px 0px 15vw;
+  font-size: 33px;
 }
 .consumer-section__heading {
   color: #ffffff;
@@ -44,7 +51,7 @@
   font-size: 4.688vw;
   line-height: 5.469vw;
   text-align: center;
-  padding: 0px 0px 22.219vw 0px;
+  padding: 0px 0px 10.219vw 0px;
   margin-bottom: 0px;
 }
 .steps-title {
@@ -71,9 +78,7 @@
     width: 150px;
     /* top: 2%; */
   }
-  .consumer-section__heading {
-    padding: 14vw 0px 6vw 0px;
-  }
+
   .h3-section {
     padding: 0px;
     margin: 0px;
@@ -92,12 +97,6 @@
   .imgResize img {
     height: 80px;
     width: 80px;
-  }
-  .consumerPadding {
-    padding: 4vw 0px 4vw 0px;
-  }
-  .customPadding {
-    padding: 4vw 0px 4vw 0px;
   }
 }
 @media (max-width: 425px) {
@@ -139,5 +138,18 @@
   .whiteColor {
     color: #fff;
     font-size: 10px;
+  }
+}
+
+.dollar {
+  animation: spin 2s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(6.284rad);
   }
 }

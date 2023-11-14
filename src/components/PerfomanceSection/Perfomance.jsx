@@ -20,7 +20,7 @@ const PerfomanceSection = () => {
   }, []);
   return (
     <>
-      <hr />
+      {/* <hr /> */}
       <section id="performance " className="pb-5">
         <Container>
           <Row>
@@ -97,7 +97,7 @@ const PerfomanceSection = () => {
           </Row>
         </Container>
       </section>
-      <hr />
+      {/* <hr /> */}
       <section className="consultancy">
         <Container>
           <Row>

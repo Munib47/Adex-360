@@ -35,7 +35,7 @@ const Consumer = () => {
   return (
     <>
       <Container>
-        <div data-aos="fade-left">
+        <div>
           <section id="consumer-section" className="bg-black consumerPadding">
             <h1 className="consumer-section__heading">
               Consumer{" "}
@@ -91,7 +91,7 @@ const Consumer = () => {
             </Col>
           </Row>
           <div className="imgResize">
-            <div data-aos="slide-up">
+            <div>
               <Row className="text-center customPadding">
                 <Col lg={4} md={4} sm={4} xs={4}>
                   <span style={{ fontWeight: "700", color: "white" }}>
@@ -115,7 +115,7 @@ const Consumer = () => {
                 </Col>
               </Row>
             </div>
-            <div data-aos="slide-up">
+            <div>
               <Row className="text-center customPadding">
                 <Col lg={4} md={4} sm={4} xs={4}>
                   <span>
@@ -143,7 +143,7 @@ const Consumer = () => {
                 </Col>
               </Row>
             </div>
-            <div data-aos="slide-up">
+            <div>
               <Row className="text-center customPadding">
                 <Col lg={4} md={4} sm={4} xs={4}>
                   <span>
@@ -165,8 +165,8 @@ const Consumer = () => {
                 </Col>
               </Row>
             </div>
-            <div data-aos="slide-up">
-              <Row className="text-center customPadding">
+            <div>
+              <Row className="text-center lastRowCustomPadding">
                 <Col lg={4} md={4} sm={4} xs={4}>
                   <span>
                     <img
@@ -193,13 +193,13 @@ const Consumer = () => {
           </div>
         </section>
         <Container>
-          <div data-aos="fade-left">
+          <div>
             <section className="bg-black">
-              <h1 className="consumer-section__heading spacing">
+              <h1 className="consumer-section__heading consumerSpacing">
                 High impact campaigns,
                 <br /> no penny wa
                 <span className="orange-color">
-                  <img src={Dollar} alt="Dollar" className="img-fluid" />
+                  <img src={Dollar} alt="Dollar" className="img-fluid dollar" />
                 </span>
                 ted doing testing.
               </h1>
@@ -207,7 +207,7 @@ const Consumer = () => {
           </div>
         </Container>
         <Container>
-          <div data-aos="fade-left">
+          <div>
             <section
               className="rotateImageSection bg-black bgImg"
               style={{
@@ -216,16 +216,29 @@ const Consumer = () => {
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
+                height: "740px",
+                width: "110%",
+                marginLeft: "-50px",
               }}
             >
               <img
                 className="rotateImage img-fluid"
                 src={rotateImage}
+                style={{ width: "39.844vw", height: "39.844vw" }}
                 alt="rotate"
               />
               <Row className="pb-5 whiteColor">
-                <Col lg={6} md={6} sm={6} xs={6}>
-                  <h1 className=" spacing  textPadding fontGrand">
+                <Col
+                  lg={6}
+                  md={6}
+                  sm={6}
+                  xs={6}
+                  style={{ paddingLeft: "45px" }}
+                >
+                  <h1
+                    className=" spacing  textPadding fontGrand"
+                    style={{ fontSize: "100px" }}
+                  >
                     Grand
                     <br />
                     audience
@@ -234,7 +247,7 @@ const Consumer = () => {
                   </h1>
                 </Col>
                 <Col lg={6} md={6} sm={6} xs={6}>
-                  <h4 className=" costPadding">
+                  <h4 className="costPadding">
                     with optimized
                     <br />
                     conversion cost
