@@ -19,7 +19,7 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <div data-aos="fade-left">
+      <div>
         <div className="polygonSquare">
           <div className="polygon">
             <img src={Polygon} alt="pm" className="img-responsive" />
